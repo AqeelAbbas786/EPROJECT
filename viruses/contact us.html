@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(images12.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     
+    }
+    .card {
+      border-radius: 20px;
+      width: 900px;
+      border: none;
+    
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+      background-color:#1b92ec;
+      border-radius: 15px 15px 0 0;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+    .map-container {
+      height: 300px; /* Adjust height as needed */
+      border-radius: 15px;
+      overflow: hidden;
+      margin-top: 20px;
+      box-shadow: 0px 5px 10px #1b92ec;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+   
+.contact{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 50px;
+}
+#contact{
+background-color:rgba(150, 150, 150, 0.5);
+
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav style="width: 100%;position: fixed ;" class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="homevertex.html">
+            <div class="nav-brand">
+            <img class="imgnav1" src="pictures\navbar\images-removebg-preview.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" ><img class="imgnav2" src="pictures\navbar\6847301bdd4c480fc158d82f5f52de42-removebg-preview.png" alt="vertex">
+          </a>
+        </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div style=" justify-content: space-evenly; align-items: center;" class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul style="font-size: 20px;" class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="eProject.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Type Of Virus
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Corona.html">Corona virus</a></li>
+                  <li><a class="dropdown-item" href="lassa.html">Lassa virus</a></li>
+                  <li><a class="dropdown-item" href="Hanta.html">Hanta virus</a></li>
+                  <li><a class="dropdown-item" href="Ebola.html">Ebola Virus</a></li>
+                  <li><a class="dropdown-item" href="Marburg.html">Marburg virus</a></li>
+                  <li><a class="dropdown-item" href="Hepatitis.html">Hepatitis virus</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="Facts and Figures.html">Facts & Figure</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact us.html" id="contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback.html">Feedback</a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+</header>
+<div style="height: 100px;width: 100%;"></div>
+     <div class="contact">
+        <!-- Contact Form Card -->
+        <div   class="card shadow-lg mt-4">
+          <div class="card-header">
+            <h2 style="font-size: 60px;">Contact Us</h2>
+          </div>
+          <div class="card-body p-4">
+            <form action="#" method="POST">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+              </div>
+            
+              <div class="text-center">
+                <button  type="submit" class="btn btn-primary" value="submit">Submit </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed -->
+        <div style="width: 900px; margin-left: 50px;" class="map-container mt-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.313992521784!2d67.14924997586847!3d24.88726914418329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339999415e0c3%3A0x36742eee0fd9c291!2sAptech%20Metro%20Star%20Gate!5e0!3m2!1sen!2s!4v1718974088551!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+   
+
+  <footer>
+    <div class="footer">
+        <img style="margin-left: 20px;" src="pictures\navbar\images-removebg-preview.png" alt="Logo" width="120" height="120" class="d-inline-block align-text-top" ><img style="margin-right: 30px;" src="pictures\navbar\6847301bdd4c480fc158d82f5f52de42-removebg-preview.png" alt="vertex" height="60" width="160">
+        <div>
+        <p class="JOIN">LET'S JOIN</p>
+        <div class="links">
+        <a href="#"><img style="height: 30px; width: 30px;" src="web links\facebook.png" alt="facebook"></a> 
+        <a href="#"><img style="height: 30px; width: 30px;" src="web links\twitter.png" alt="twiter"></a> 
+        <a href="#"><img style="height: 30px; width: 30px;" src="web links\video.png" alt="youtube"></a>
+        <a href="#"><img style="height: 30px; width: 30px;" src="web links\linkedin.png" alt="linked in"></a> 
+        </div>
+        <p class="JOIN">CONTACT US</p>
+        <p style="margin-left: 80px;margin-top: -30px;">📞 Phone: +1 (555) 123-4567</p>
+        <p style="margin-left: 70px;">📧Email: info@vertexsystem.com</p>
+    </div>
+    <div>
+   <p class="JOIN"> OUR LOCATION</p>
+   <p style="margin-left: 90px;margin-top: -20px;">Aptech Metro Star Gate,<br> METRO Stargate Store,<br> KARACHI, SINDH, PAKISTAN</p>
+   </div>
+   <div>
+    <p class="JOIN">QUICK LINKS</p>
+    <div style="margin-left: 100px;">
+    <a class="nav-link " aria-current="page" href="eProject.html">About Us</a>
+    <a class="nav-link" href="contact us.html" id="contact">Contact Us</a>
+    <a class="nav-link" href="feedback.html">Feedback</a>
+    <a class="nav-link " aria-current="page" href="Facts and Figures.html">Facts & Figure</a>
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Type Of Virus
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="Corona.html">Corona virus</a></li>
+          <li><a class="dropdown-item" href="lassa.html">Lassa virus</a></li>
+          <li><a class="dropdown-item" href="Hanta.html">Hanta virus</a></li>
+          <li><a class="dropdown-item" href="Ebola.html">Ebola Virus</a></li>
+          <li><a class="dropdown-item" href="Marburg.html">Marburg virus</a></li>
+          <li><a class="dropdown-item" href="Hepatitis.html">Hepatitis virus</a></li>
+          </ul>
+   </div>
+   </div>
+    </div>
+    
+    <div class="secondfoot">
+        <div>© 2024 Virus Information. All rights reserved.</div>
+    </div>
+  
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    const form = 
+    document.querySelector('form');
+    form.addEventListener('submit',(e)=>{
+      e.preventDefault();
+      const name = 
+      document.getElementById("name").value;
+      const email = 
+      document.getElementById("email").value;
+      const subject = 
+      document.getElementById("subject").value;
+      const message = 
+      document.getElementById("message")
+      if(name&&email&&subject&&message){
+        Swal.fire({
+  title: "Good job!",
+  text: " WE WILL BACK SOON TO YOUR MESSAGE!",
+  icon: "success"
+});
+setTimeout(() => {
+  location.reload()
+},1500);
+      }else{
+        Swal.fire({
+  title: "Oop...!",
+  text: " WE WILL BACK SOON TO YOUR MESSAGE!",
+  icon: "error"
+});
+
+      }
+   
+    })
+
+    
+    
+  </script>
+  </body>
+  </html>

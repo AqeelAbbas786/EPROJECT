@@ -1,0 +1,141 @@
+body{
+    margin: 0%;
+    padding: 0%;
+  
+   
+  
+}
+.imgnav1{
+    height: 5rem;
+    width: 5rem;
+ 
+}
+.imgnav2{
+    height: 2rem;
+    width: 8rem;
+    padding: -3rem;
+}
+.navbar{
+    position: fixed;
+    z-index: 10;
+    background-color: aliceblue;
+   
+}
+li a{
+    margin-left: 0px;
+    font-size: 20px;
+}
+li a:hover{
+    background-color: rgb(197, 197, 197);
+}
+#map{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-left: -160px;
+    border-radius: 50px;
+
+}
+#map1{
+    margin-left: 180px;
+    height: 40px;
+    width: 100px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+
+}
+.center{
+    height:95px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.homepic{
+    height: 450px;
+    width: 75rem;
+    background-image: url(istockphoto-1221046101-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+#virustext{
+    margin-right: 0rem;
+    color: aliceblue;
+    margin-top: 100px;
+   
+}
+#virus2{
+    color: rgb(255, 255, 255);
+    height: 300px;
+    width: 300px;
+    font-size: 19px;
+}
+dt{
+    margin-top: 50px;
+    font-size: 60px;
+}
+dd{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.dt{
+    font-size: 50px;
+}
+dt{
+    font-size: 35px;
+}
+dd{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#main{
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .card{
+    height: 400px;
+    width :100px ;
+    margin-bottom: 40px;
+    margin-left: 55px;
+    border: 1px solid black;
+  }
+  .footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.JOIN{
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 100px;
+}
+.links{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.secondfoot{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(52, 52, 52);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+}
